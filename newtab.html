@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eisenhower Planner</title>
+  <link rel="icon" type="image/png" href="icon-16.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="a4-paper">
+    
+    <div class="header">
+      <div class="date-display">
+        <div id="current-date"></div>
+        <div id="current-day"></div>
+      </div>
+    </div>
+
+    <div class="matrix-container">
+      
+      <div class="empty-corner"></div>
+      <div class="axis-label x-axis">URGENT</div>
+      <div class="axis-label x-axis">NOT URGENT</div>
+
+      <div class="axis-label y-axis">IMPORTANT</div>
+      
+      <div class="planner-section q-green">
+        <div class="q-header">
+          <div class="q-title">DO</div>
+          <div class="q-subtitle"><i>Do it now.</i></div>
+        </div>
+        <textarea id="note1"></textarea>
+      </div>
+      
+      <div class="planner-section q-green">
+        <div class="q-header">
+          <div class="q-title">DECIDE</div>
+          <div class="q-subtitle"><i>Schedule a time to do it.</i></div>
+        </div>
+        <textarea id="note2"></textarea>
+      </div>
+
+      <div class="axis-label y-axis">NOT IMPORTANT</div>
+      
+      <div class="planner-section q-red">
+        <div class="q-header">
+          <div class="q-title">DELEGATE</div>
+          <div class="q-subtitle"><i>Who can do it for you?</i></div>
+        </div>
+        <textarea id="note3"></textarea>
+      </div>
+      
+      <div class="planner-section q-red">
+        <div class="q-header">
+          <div class="q-title">DELETE</div>
+          <div class="q-subtitle"><i>Eliminate it.</i></div>
+        </div>
+        <textarea id="note4"></textarea>
+      </div>
+
+    </div>
+  </div>
+  
+  <button id="clear-all-btn">Clear All</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
