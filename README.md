@@ -2,7 +2,8 @@
 
 Replaces the New Tab page with an Eisenhower Matrix.
 
-No account is needed, no data is collected.
+No account is needed, no data is collected; you can find the full Privacy Policy here:
+https://github.com/ShumonX/Eisenhower-NewTab-Planner/blob/main/PRIVACY_POLICY.md
 
 To ensure you are not overwhelmed and that you finish all your tasks for the day, try to put less than 6 tasks in total.
 
