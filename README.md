@@ -2,6 +2,8 @@
 
 Replaces the New Tab page with an Eisenhower Matrix.
 
+[Link on Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/eisenhower-planner/pohalahlipkcbdhfnhedmmcdjmiabmin)
+
 No account is needed, no data is collected; you can find the full Privacy Policy here:
 https://github.com/ShumonX/Eisenhower-NewTab-Planner/blob/main/PRIVACY_POLICY.md
 
